@@ -194,11 +194,11 @@
 }
 
 .trend1 {
-  background-image: url("/Users/Ksenia/Desktop/Обучение/Проекты/Дипломная работа по 1 модулю/img/trend1.jpg");
+  background-image: url("../img/trend1.jpg");
 }
 
 .trend2 {
-  background-image: url("/Users/Ksenia/Desktop/Обучение/Проекты/Дипломная работа по 1 модулю/img/trend2.jpg");
+  background-image: url("../img/trend2.jpg");
 }
 
 .trend3 {
