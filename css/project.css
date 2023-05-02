@@ -405,7 +405,18 @@
 }
 
 .form-search {
-  display: flex;
+  position: relative;
+  height: 48px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.search-label {
+  width: 100%;
+  height: 48px;
+  display: block;
+  background-color: #f4f7f6;
+  color: #888;
 }
 
 .visually-hidden {
@@ -417,57 +428,41 @@
   margin-top: 60px;
 }
 
-.field {
-  width: 222px;
-  height: 48px;
-  background-color: #f4f7f6;
-  border: none;
-  margin-top: 60px;
-  padding-left: 21px;
-}
-
-.field:focus {
-  width: 222px;
-  height: 48px;
-  background-color: #f4f7f6;
-  outline: 1px solid #b59f5b;
-  outline-offset: -1px;
-}
 
 .button-search {
-  background-image: url(../svg/search.svg);
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
   background-position: center center;
   background-size: 50% 50%;
   background-repeat: no-repeat;
   height: 48px;
   width: 48px;
-  margin-top: 60px;
   background-color: #b59f5b;
   border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .button-search:hover {
-  width: 48px;
-  height: 48px;
   background-color: #323232;
 }
 
 .button:hover {
-  width: 270px;
+  width: 100%;
   height: 48px;
   background-color: #323232;
 }
 
 .field-email {
   padding-left: 21px;
-  width: 270px;
+  width: 100%;
   height: 48px;
   background-color: #f4f7f6;
   border: none;
 }
 
 .field-email:focus {
-  width: 270px;
+  width: 100%;
   height: 48px;
   background-color: #f4f7f6;
   outline: 1px solid #b59f5b;
@@ -475,7 +470,7 @@
 }
 
 .button {
-  width: 270px;
+  width: 100%;
   height: 48px;
   color: #fff;
   font-size: 14px;
